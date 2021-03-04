@@ -26,7 +26,7 @@ public class Lab7 {
               System.out.print("Please enter the second number ");
               float num2 = scan.nextFloat();
               System.out.println(calc.subtract(num1, num2));
-            }else if (choice == 3) {
+            } else if (choice == 3) {
               System.out.print("Please enter the first number ");
               float num1 = scan.nextFloat();
               System.out.print("Please enter the second number ");
