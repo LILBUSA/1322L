@@ -10,14 +10,19 @@ public class Controller {
     public TextField num2;
 
     public void add(ActionEvent actionEvent) {
-        int sum;
         try {
-            sum = Integer.parseInt(num1.getText()) + Integer.parseInt(num2.getText());
+            int sum = Integer.parseInt(num1.getText()) + Integer.parseInt(num2.getText());
             sumLabel.setText(String.valueOf(sum));
         }
         catch (NumberFormatException e) {
             sumLabel.setText("Please insert valid integers");
         }
+    }
+
+    public void clear(ActionEvent actionEvent) {
+        num1.clear();
+        num2.clear();
+        sumLabel.setText("");
     }
 
 }
