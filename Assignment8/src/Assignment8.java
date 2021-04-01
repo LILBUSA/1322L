@@ -1,8 +1,8 @@
 public class Assignment8 {
     public static void main(String[] args) {
         for (int i = 0; i < 10; i++) {
-            String foldString = paperFold(i);
-            System.out.println("For " + i + " folds we get: " + foldString + "\n");
+            //String foldString = paperFold(i);
+            //System.out.println("For " + i + " folds we get: " + foldString + "\n");
         }
     }
 
@@ -27,19 +27,19 @@ public class Assignment8 {
         return new String(arr);
     }
 
-    public static String paperFold(int n) {
-        if (n > 0) {
-            if () {
-
-            }
-            String s = reverse(str);
-            s = flip(s);
-            s += "v";
-            s += str;
-            str = s;
-            return paperFold(n - 1);
-        } else {
-            return "";
-        }
-    }
+//    public static String paperFold(int n) {
+//        if (n > 0) {
+//            if () {
+//
+//            }
+//            String s = reverse(str);
+//            s = flip(s);
+//            s += "v";
+//            s += str;
+//            str = s;
+//            return paperFold(n - 1);
+//        } else {
+//            return "";
+//        }
+//    }
 }
