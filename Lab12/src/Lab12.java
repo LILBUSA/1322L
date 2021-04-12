@@ -6,7 +6,7 @@ public class Lab12 {
     public static void main(String[] args) {
         try {
             String[] txtLine = new String[2];
-            File[] file = new File[] {new File("rn.txt"), new File("assets/rightnow.tx")};
+            File[] file = new File[] {new File("C:/Users/bigta/IdeaProjects/CSE 1322L/Lab12/assets/rn.txt"), new File("C:/Users/bigta/IdeaProjects/CSE 1322L/Lab12/assets/rightnow.txt")};
             Scanner[] scan = new Scanner[] {new Scanner(file[0]), new Scanner(file[1])};
             int lineNum = 0;
             while (scan[0].hasNextLine() || scan[1].hasNextLine()) {
